@@ -41,6 +41,6 @@ _Example output:_
 
 **B.** Run `python socket_client.py` in a separate terminal.  
 _Example output:_  
-`Connected to server at 127.0.0.1:65432
-Sent: Hello, server!
-Received: Message received!`
+`Connected to server at 127.0.0.1:65432`  
+`Sent: Hello, server!`    
+`Received: Message received!`    
