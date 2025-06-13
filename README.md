@@ -8,9 +8,6 @@ This repository contains programming scripts for CYB 333. The project demonstrat
 - [Project Contents](#project-contents)
 - [Prerequisites](#prerequisites)
 - [How to Run the Scripts](#how-to-run-the-scripts)
-- [Example Output](#example-output)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Purpose
 
@@ -43,4 +40,30 @@ _Example output:_
 _Example output:_  
 `Connected to server at 127.0.0.1:65432`  
 `Sent: Hello, server!`    
-`Received: Message received!`    
+`Received: Message received!`  
+  
+**C.** Run `python port_scanner.py`  
+_Example output:_  
+`Simple TCP Port Scanner`  
+`Enter target host (default: 127.0.0.1): scanme.nmap.org`  
+`Enter start port (default: 65432): 20`  
+`Enter end port (default: 65432): 30`  
+  
+`Scanning scanme.nmap.org from port 20 to 30...`  
+  
+`[CLOSED] Port 20`  
+`[CLOSED] Port 21`  
+`[OPEN ] Port 22`  
+`[CLOSED] Port 23`  
+`[CLOSED] Port 24`  
+`[CLOSED] Port 25`  
+`[CLOSED] Port 26`  
+`[CLOSED] Port 27`  
+`[CLOSED] Port 28`  
+`[CLOSED] Port 29`  
+`[CLOSED] Port 30`  
+  
+`Scan complete.`  
+`Open ports: [22]`  
+`Closed ports: [20, 21, 23, 24, 25, 26, 27, 28, 29, 30]`  
+
