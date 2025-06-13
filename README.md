@@ -8,6 +8,7 @@ This repository contains programming scripts for CYB 333. The project demonstrat
 - [Project Contents](#project-contents)
 - [Prerequisites](#prerequisites)
 - [How to Run the Scripts](#how-to-run-the-scripts)
+- [Acdemic Statement](#academic-statement)  
 
 ## Purpose
 
@@ -68,3 +69,6 @@ _Example output:_
 `Open ports: [22]`  
 `Closed ports: [20, 21, 23, 24, 25, 26, 27, 28, 29, 30]`  
 
+## Academic Statement
+
+This project was developed as part of the coursework for CYB 333. It is intended solely for educational and demonstration purposes. This repository and its contents are not licensed for commercial use, and no official endorsement by any organization or institution is implied.
