@@ -23,8 +23,9 @@ This repository serves as a demonstration of socket programming and network scan
 
 ## Prerequisites
 
-- Python 3.x installed
+- Python 3.x installed  
 - No additional libraries required (uses Python standard library)
+- Ensure explicit authorization from the target system before performing any scans.
 
 ---
 
